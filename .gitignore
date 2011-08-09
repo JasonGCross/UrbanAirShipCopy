@@ -1,0 +1,27 @@
+# this global ignore file is to be used in the project root for tracking
+# all files which all developers in the project want ignored
+# do not use a .gitignore file in any other (nested) location
+# if you want to ignore files for YOUR environment only, instead
+# edit the .git/info/excludes file
+
+# xcode project files to ignore
+sampleApp/PushSample.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+
+# do not commit any user-specific IDE settings to the repository
+sampleApp/PushSample.xcodeproj/xcuserdata/*
+sampleApp/PushSample.xcodeproj/xcuserdata
+sampleApp/PushSample.xcodeproj/project.xcworkspace/xcuserdata/*
+
+# ignore these files (or directories) in any location
+.xcworkspacedata
+.DS_Store
+Breakpoints.xcbkptlist
+.xcbkptlist
+.xcscheme
+.xcsettings
+xcschemes
+xcdebugger
+
+# this file seems to be problematically re-appearing. try to remove again
+sampleApp/PushSample.xcodeproj/xcuserdata/jasoncross.xcuserdatad/xcschemes
+sampleApp/PushSample.xcodeproj/xcuserdata/jasoncross.xcuserdatad/xcschemes/yapta-iphone.xcscheme
